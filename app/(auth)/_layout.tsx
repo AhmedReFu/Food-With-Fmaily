@@ -10,7 +10,6 @@ export default function _Layout() {
                         <ImageBackground source={images.loginGraphic} className="size-full rounded-b-lg" resizeMode='stretch'/>
                         <Image source={images.logo} className="self-center size-48 absolute -bottom-16 z-10"/>
                 </View>
-
                 <Slot/>
             </ScrollView>
 
