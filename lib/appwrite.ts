@@ -5,9 +5,9 @@ import {CreateUserParams,  SignInParams} from "@/type";
 export const appwriteConfig={
     endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT,
     projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
-    platform: "com.RFLLC.foodwithfamily",
-    databaseId: '68c9b506001474950d28',
-    userCollectionId: 'user'
+    platform: process.env.PLATFORM,
+    databaseId: "68c9b506001474950d28",
+    userCollectionId: "user"
 }
 
 export const client = new Client();
