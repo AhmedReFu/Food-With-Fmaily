@@ -1,17 +1,17 @@
-import { create } from 'zustand'
+import { create } from 'zustand';
 import {User} from "@/type";
 import {getCurrentUser} from "@/lib/appwrite";
 
 type AuthState = {
     isAuthenticated: boolean;
-    user:User | null;
+    user: User | null;
     isLoading: boolean;
 
-    setIsAuthenticated:(value: boolean)=>void;
-    setUser:(user:User | null)=>void;
-    setLoading:(loading:boolean)=>void;
+    setIsAuthenticated: (value: boolean) => void;
+    setUser: (user: User | null) => void;
+    setLoading: (loading: boolean) => void;
 
-    fetchAuthenticatedUser:()=>Promise<void>;
+    fetchAuthenticatedUser: () => Promise<void>;
 }
 
 const useAuthStore = create<AuthState>((set) => ({
