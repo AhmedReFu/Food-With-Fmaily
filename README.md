@@ -1,6 +1,6 @@
 ## <a name="features">🔋 Features</a>
 
-### Features of the Mobile Movie AppProject
+### Features of the Food With Fmaily
 
 👉 **Google Authentication**: Secure and seamless user sign-ins using Google.
 
