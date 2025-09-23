@@ -1,3 +1,5 @@
+<img src="assets/images/logo.png" alt="Video Kit Banner">
+
 ## <a name="features">🔋 Features</a>
 
 ### Features of the Food With Fmaily
