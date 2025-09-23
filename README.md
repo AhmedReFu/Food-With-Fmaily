@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+## <a name="features">🔋 Features</a>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+### Features of the Mobile Movie AppProject
 
-## Get started
+👉 **Google Authentication**: Secure and seamless user sign-ins using Google.
 
-1. Install dependencies
+👉 **Home Page**: Showcases the latest offers and directs users to filtered search results.
 
-   ```bash
-   npm install
-   ```
+👉 **Search Page**: Lets users explore all foods with category filters and keyword search.
 
-2. Start the app
+👉 **Product Details Page**: Displays food images, key details, and allows adding items to the cart.
 
-   ```bash
-   npx expo start
-   ```
+👉 **Cart Page**: Review selected items and see the total price.
 
-In the output, you'll find options to open the app in a
+👉 **Profile Page**: Manage user settings and preferences.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+👉 **Appwrite Integration**: Handles backend database and file storage for food items.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+and many more, including code architecture and reusability.
 
-## Get a fresh project
+## <a name="quick-start">🤸 Quick Start</a>
 
-When you're ready, run:
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- **[Git](https://git-scm.com/)**
+- **[Node.js](https://nodejs.org/en)**
+- **[npm](https://www.npmjs.com/)** _(Node Package Manager)_
+
+**Cloning the Repository**
 
 ```bash
-npm run reset-project
+git clone https://github.com/adrianhajdin/food_ordering.git
+cd food_ordering
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Installation**
 
-## Learn more
+Install the project dependencies using npm:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Set Up Environment Variables**
 
-## Join the community
+Create a new file named `.env` in the root of your project and add the following content:
 
-Join our community of developers creating universal apps.
+```env
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=
+EXPO_PUBLIC_APPWRITE_ENDPOINT=
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Replace the placeholder values with your actual credentials by signing up on the **[Appwrite](https://jsm.dev/rn25-appwrite)** dashboard.
+
+**Running the Project**
+
+```bash
+npx expo start
+```
+
+Open your ExpoGO app on your phone and scan the QR code to view the project.
+
+
+
+
